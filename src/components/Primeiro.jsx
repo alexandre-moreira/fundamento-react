@@ -1,11 +1,12 @@
 import React from  'react';
 
-function Primeiro(){
-    return
-        <div>
+export default function(){
+    return(
+        <React.Fragment>
             <h1>Primeiro Componente</h1>
             <h2>Exemplo de um componente React</h2>
-        </div>
+        </React.Fragment>
+    )
 }
 
 export default Primeiro;
